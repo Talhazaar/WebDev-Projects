@@ -1,0 +1,29 @@
+html                           /* selector */
+{
+    background:rgb(196, 196, 250);
+}
+
+h2{
+    color:red;
+}
+
+.any-name-here {             /* class selector */
+    color:blue;
+}
+
+#main{                       /* ID selector */
+    color: yellow;
+}
+
+p[draggable="true"]{                /* attribute selector with value */
+    color: purple;
+}
+
+p[draggable="false"]{                /* attribute selector with value */
+    color: orange;
+}
+
+*{                                  /* universal selector. Selects all or those that have not been styled individualy */   
+    color: white;
+}
+
